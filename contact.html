@@ -1,0 +1,57 @@
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>contact</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+  body {
+    text-align: center;
+    vertical-align: center;
+    background-image: url(https://i.pinimg.com/originals/4b/8e/23/4b8e2390971508b36f6ea4132ce31c30.jpg);
+    background-size: cover;
+    background-color: black;
+  }
+  a {
+    border: 1px solid black;
+    color: black;
+    background-color: silver;
+    box-shadow: 10px 10px;
+    padding: 15px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  div {
+    border: 1px solid black;
+    background-color: silver;
+    box-shadow: 10px 10px;
+    padding: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  input {
+    border: 1px solid black;
+  }
+  </style>
+</head>
+<body>
+  <a href=".\index.html">back</a>
+  <div>
+    contact: <span style="color:white;background-color:black;padding:5px;">no</span>
+    <br>
+    <br>
+    <input type="email" id="email" for="email" placeholder="email">
+    <button type="submit" onclick="notify()">submit</button>
+  </div>
+  <script>
+    function notify() {
+      alert("Excellent my compadre! I'm on my way to jam up the hut!");
+    }
+  </script>
+</body>
+</html>
+
